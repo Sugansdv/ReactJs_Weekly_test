@@ -1,0 +1,58 @@
+.age-card {
+  width: 280px;
+    margin: 150px auto;
+  padding: 20px;
+  background-color: #d6eef6;
+  box-shadow: 0 3px 8px #b0c4de;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.person-name {
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 22px;
+}
+
+.person-age {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 18px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.increase-btn {
+  background-color: royalblue;
+}
+
+.increase-btn:hover {
+  background-color: #0056b3;
+}
+
+.clear-btn {
+   background-color: orangered;
+}
+
+.clear-btn:hover {
+  background-color: #5a6268;
+}

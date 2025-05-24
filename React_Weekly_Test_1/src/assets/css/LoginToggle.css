@@ -1,0 +1,81 @@
+.login-container {
+  max-width: 320px;
+    margin: 150px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px #ccc;
+  background-color: #fff;
+  text-align: center;
+}
+
+.login-input {
+  width: 80%;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border: 1.5px solid #ccc;
+  font-size: 16px;
+}
+
+.login-input.input-error {
+  border-color: orangered;
+}
+
+.error-msg {
+  color: #e74c3c;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.login-button {
+  background-color: royalblue;
+  color: white;
+}
+
+.login-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+.logout-button {
+  background-color: orangered;
+  color: white;
+}
+
+.logout-button:hover {
+  background-color: #a71d2a;
+}
+
+.clear-button {
+   background-color:orangered;
+  color: white;
+}
+
+.clear-button:hover {
+  background-color: #5a6268;
+}
