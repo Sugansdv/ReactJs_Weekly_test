@@ -58,7 +58,7 @@ function LoginToggle() {
           </>
         ) : (
           <>
-            <p>Welcome, {username}!</p>
+            <p className="greet-user">Welcome, {username}!</p>
             <div className="button-row">
               <button onClick={handleLogout} className="btn logout-button">
                 Logout

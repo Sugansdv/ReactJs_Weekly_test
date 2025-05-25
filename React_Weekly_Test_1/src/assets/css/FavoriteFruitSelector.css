@@ -66,3 +66,9 @@
 .fruit-selector-clear-btn:hover:not(:disabled) {
   background-color: #b02a37;
 }
+
+@media (max-width: 425px) {
+  .fruit-display__image {
+  max-width: 150px;
+}
+}
