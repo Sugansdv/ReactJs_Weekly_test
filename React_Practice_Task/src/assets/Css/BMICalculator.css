@@ -35,7 +35,7 @@
 .bmi-form button {
   width: 100%;
   padding: 10px;
-  background-color: darkgreen;
+  background-color: orangered;
   color: white;
   border: none;
   border-radius: 6px;
@@ -45,7 +45,7 @@
 }
 
 .bmi-form button:hover {
-  background-color: green;
+  background-color: Orange;
 }
 
 .bmi-result {
