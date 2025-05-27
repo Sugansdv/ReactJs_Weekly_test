@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content:space-evenly; 
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #06d4eb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+}
+body{
+    padding-top: 70px;
+}
+
+.left {
+  font-size: 1.5em;
+}
+
+.right {
+  font-size: 1.8em;
+}
+.Ques{
+    text-align: center;
+     text-decoration: underline;
+}

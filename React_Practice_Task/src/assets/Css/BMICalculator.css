@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+.bmi-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #0f6bc1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.bmi-container h2 {
+  text-align: center;
+}
+
+.bmi-form .form-group {
+  margin-bottom: 15px;
+}
+
+.bmi-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.bmi-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.bmi-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bmi-form button:hover {
+  background-color: green;
+}
+
+.bmi-result {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #e9f7ef;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+
+@media (max-width: 425px) {
+  .bmi-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .bmi-form button {
+    font-size: 14px;
+  }
+}

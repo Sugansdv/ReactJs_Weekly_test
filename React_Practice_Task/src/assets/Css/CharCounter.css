@@ -1,0 +1,49 @@
+.char-counter {
+  max-width: 420px;
+  margin: 50px auto;
+  padding: 24px;
+  background-color: #f3ecec;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.char-counter__title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: darkgreen;
+}
+
+.char-counter__input {
+  width: 95%;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  resize: vertical;
+  font-family: inherit;
+  margin-bottom: 14px;
+}
+
+.char-counter__count {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+.char-counter__clear-btn {
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+   background-color: orangered;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.char-counter__clear-btn:hover {
+  background-color: #5a6268;
+}

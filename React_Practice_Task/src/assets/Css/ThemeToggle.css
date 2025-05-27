@@ -1,0 +1,39 @@
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --btn-bg: black;
+  --btn-text: white;
+}
+
+[data-theme='dark'] {
+  --bg-color: black;
+  --text-color: white;
+  --btn-bg: white;
+  --btn-text: black;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.theme-toggle-btn {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.2em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.theme-toggle-btn:hover {
+    transform: scale(1.15);
+}
