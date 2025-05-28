@@ -10,17 +10,17 @@ function CharCounter() {
 
   return (
     <>
-      <div className="char-counter">
-        <h2 className="char-counter__title">Live Character Counter</h2>
+      <div className="count-container">
+        <h2 className="count-title">Live Character Counter</h2>
         <textarea
-          className="char-counter__input"
+          className="count-input"
           placeholder="Type something..."
           value={text}
           onChange={(e) => setText(e.target.value)}
           rows={5}
         />
-        <p className="char-counter__count">Character Count: {text.length}</p>
-        <button className="char-counter__clear-btn" onClick={handleClear}>
+        <p className="char-count">Character Count: {text.length}</p>
+        <button className="clear-btn" onClick={handleClear}>
           Clear
         </button>
       </div>

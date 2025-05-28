@@ -18,12 +18,12 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.theme-toggle-container {
+.toggle-container {
   text-align: center;
   margin: 40px 0;
 }
 
-.theme-toggle-btn {
+.toggle-btn {
   background-color: var(--btn-bg);
   color: var(--btn-text);
   border: none;
@@ -34,6 +34,6 @@ body {
   transition: background-color 0.3s ease;
 }
 
-.theme-toggle-btn:hover {
+.toggle-btn:hover {
     transform: scale(1.15);
 }

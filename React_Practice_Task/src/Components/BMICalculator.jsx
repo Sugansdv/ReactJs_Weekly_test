@@ -9,12 +9,16 @@ const BMICalculator = () => {
 
   const calculateBMI = (e) => {
     e.preventDefault();
-    if (!weight || !height || weight <= 0 || height <= 0) return;
+    if (!weight || !height || weight <= 0 || height <= 0) 
+      {
+         window.alert("Please enter valid numbers for weight and height.");
+        return
+      };
 
     const heightInMeters = height / 100;
     const bmiValue = (weight / (heightInMeters ** 2)).toFixed(1);
     setBmi(bmiValue);
-    setCategory(getBMICategory(bmiValue));
+    setCategory(getCategory(bmiValue));
   };
 
   const clearForm = () => {
@@ -24,7 +28,7 @@ const BMICalculator = () => {
     setCategory('');
   };
 
-  const getBMICategory = (bmi) => {
+  const getCategory = (bmi) => {
     if (bmi < 18.5) return 'Underweight';
     if (bmi < 24.9) return 'Normal weight';
     if (bmi < 29.9) return 'Overweight';

@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content:space-evenly; 
+  justify-content:space-between; 
   align-items: center;
   padding: 15px 20px;
   background-color: #06d4eb;
@@ -23,5 +23,19 @@ body{
 }
 .Ques{
     text-align: center;
-     text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+  .header {
+  flex-direction: column;
+}
+
+.left {
+  font-size: 1em;
+}
+
+.right {
+  font-size: 1.2em;
+}
+  
 }

@@ -9,15 +9,16 @@ function App() {
   return (
     <>
       <div className="header">
-        <div className="left">Suganya</div>
-        <div className="right">React Practice Task</div>
+        <div className="left">Suganya S</div>
+        <div className="right">React Project</div>
+         <div className="right">27-05-2025</div>
       </div>
-      <h1 className="Ques">Project 1: FAQ Accordion – expand/collapse answers</h1>
+      <h1 className="Ques">Project 1: FAQ Accordion</h1>
       <FAQAccordion />
       <hr />
       <hr />
       <br />
-      <h1 className="Ques">Project 2:Image Gallery – show images in grid, highlight clicked</h1>
+      <h1 className="Ques">Project 2:Image Gallery</h1>
       <ImageGallery />
       <hr />
       <hr />
@@ -32,7 +33,7 @@ function App() {
       <hr />
       <hr />
       <br />
-      <h1 className="Ques">Project 5: Character Counter App – count typed characters</h1>
+      <h1 className="Ques">Project 5: Character Counter App</h1>
       <CharCounter />
     </>
   );

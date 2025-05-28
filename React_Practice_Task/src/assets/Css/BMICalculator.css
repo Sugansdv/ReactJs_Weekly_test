@@ -6,9 +6,9 @@
   margin: 40px auto;
   padding: 20px;
   border-radius: 12px;
-  background-color: #0f6bc1;
+  background-color: burlywood;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+
 }
 
 .bmi-container h2 {
@@ -35,7 +35,7 @@
 .bmi-form button {
   width: 100%;
   padding: 10px;
-  background-color: orangered;
+  background-color: rgb(107, 19, 48);
   color: white;
   border: none;
   border-radius: 6px;
@@ -45,7 +45,7 @@
 }
 
 .bmi-form button:hover {
-  background-color: Orange;
+  background-color: rgb(215, 97, 136);
 }
 
 .bmi-result {
@@ -55,6 +55,7 @@
   background-color: #e9f7ef;
   padding: 15px;
   border-radius: 8px;
+  color: rgb(52, 52, 52);
 }
 
 .button-group {
