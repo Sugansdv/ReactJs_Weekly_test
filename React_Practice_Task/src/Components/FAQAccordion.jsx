@@ -17,10 +17,10 @@ const FAQAccordion = () => {
     },
   ];
 
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [Index, setIndex] = useState(null);
 
   const toggleFAQ = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
+    setIndex(index === Index ? null : index);
   };
 
   return (
@@ -28,7 +28,7 @@ const FAQAccordion = () => {
       <h2>Frequently Asked Questions</h2>
       {faqs.map((faq, index) => (
         <div
-          className={`faq-item ${activeIndex === index ? 'active' : ''}`}
+          className={`faq-item ${Index === index ? 'active' : ''}`}
           key={index}
         >
           <div
@@ -36,9 +36,9 @@ const FAQAccordion = () => {
             onClick={() => toggleFAQ(index)}
           >
             {faq.question}
-            <span className="expand">{activeIndex === index ? '-' : '+'}</span>
+            <span className="expand">{Index === index ? '-' : '+'}</span>
           </div>
-          {activeIndex === index && (
+          {Index === index && (
             <div className="faq-answer">{faq.answer}</div>
           )}
         </div>
