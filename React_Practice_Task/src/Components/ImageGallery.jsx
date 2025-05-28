@@ -9,10 +9,10 @@ import img3 from '../assets/img3.jpg';
 const images = [img1, img2, img3];
 
 const ImageGallery = () => {
-  const [selectedIndex, setSelectedIndex] = useState(null);
+  const [Index, setIndex] = useState(null);
 
   const handleClick = (index) => {
-    setSelectedIndex(index);
+    setIndex(index);
   };
 
   return (
@@ -22,7 +22,7 @@ const ImageGallery = () => {
         {images.map((img, index) => (
           <div
             key={index}
-            className={`image-item ${selectedIndex === index ? 'selected' : ''}`}
+            className={`image-item ${Index === index ? 'selected' : ''}`}
             onClick={() => handleClick(index)}
           >
             <img src={img} alt={`Gallery ${index + 1}`} />
